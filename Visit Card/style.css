@@ -1,0 +1,27 @@
+div {
+    text-align: center;
+    background-color: lightcyan;
+    width: 650px;
+    margin: auto;
+}
+
+body {
+    color: black;
+    background-color: lightslategray;
+}
+
+p {
+    text-align: center;
+    font-weight: bolder;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
