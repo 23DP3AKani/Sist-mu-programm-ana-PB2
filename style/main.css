@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background: white;
+}
+
+header {
+    background: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+}
+
+.logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.nav-button {
+    background: #34495e;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.nav-button:hover {
+    background: #1abc9c;
+}
+
+#actionButton:hover {
+    background: #1abc9c;
+}
+
+#catFactButton:hover {
+    background: #1abc9c;
+}
+
+
+.hero-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: white;
+}
+
+.hero {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    width: 80%;
+    border-radius: 10px;
+}
+
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: white;
+}
+
+button {
+    background: grey;
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    margin: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+footer {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+}
